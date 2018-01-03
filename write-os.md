@@ -9,7 +9,7 @@ tags:
 
 # Tips of writing OS/Kernel
 
-### asm
+## asm
 
 | name |  mnemonic   |syntax|compiler|
 |:----:|:-----------:|:----:|:------:|
@@ -20,11 +20,11 @@ AT&T:
  - add `$` for imm, `pushl $4`
  - add `%` for reg, `mov $4 %eax`
 
-### Links
+## Links
 
 #### tutorials
 - [Build yourself a Linux](https://github.com/MichielDerhaeg/build-linux)
-  - with code
+- [Writing an OS in Rust](https://os.phil-opp.com/)
 
 #### asm
 - [GAS/NASM](https://www.ibm.com/developerworks/jp/linux/library/l-gas-nasm.html)
@@ -32,7 +32,7 @@ AT&T:
 #### BootLoader
 - [GRUBで簡単なOSカーネルを動かしてみる](http://inaz2.hatenablog.com/entry/2015/12/31/221319)
 - [なぜx86ではMBRが"0x7c00"にロードされるのか](https://www.glamenv-septzen.net/view/614)
-- [Writing an OS in Rust](https://os.phil-opp.com/)
+- [MBRの構造](http://caspar.hazymoon.jp/OpenBSD/arch/i386/stand/mbr/mbr_structure.html)
 
 #### toolchains
 - [xargo](https://github.com/japaric/xargo)
