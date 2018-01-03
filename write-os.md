@@ -9,11 +9,25 @@ tags:
 
 # Tips of writing OS/Kernel
 
+### asm
+
+| name |  mnemonic   |syntax|compiler|
+|:----:|:-----------:|:----:|:------:|
+| nasm |mov dest src | Intel| nasm   |
+| GAS  |mov src %dest| AT&T |GNU Assembler/as| 
+
+AT&T:
+ - add `$` for imm, `pushl $4`
+ - add `%` for reg, `mov $4 %eax`
+
 ### Links
 
 #### tutorials
 - [Build yourself a Linux](https://github.com/MichielDerhaeg/build-linux)
   - with code
+
+#### asm
+- [GAS/NASM](https://www.ibm.com/developerworks/jp/linux/library/l-gas-nasm.html)
 
 #### BootLoader
 - [GRUBで簡単なOSカーネルを動かしてみる](http://inaz2.hatenablog.com/entry/2015/12/31/221319)
