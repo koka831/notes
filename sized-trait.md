@@ -1,6 +1,6 @@
 ---
 title: trait Sized<T>
-category: program
+category: programming
 tags:
   - Rust
 ---
